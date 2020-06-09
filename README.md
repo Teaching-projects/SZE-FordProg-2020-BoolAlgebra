@@ -1,4 +1,4 @@
-# Boole algebra számítás Flex és bison segítségével
+# Boole algebra számítás Flex és Bison segítségével
 
 A szoftver képes boole függvény megoldására. 1-gyel jelöljük az igaz, 0-val a hamis értéket.
 
