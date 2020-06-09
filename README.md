@@ -49,3 +49,10 @@ solve x1 <-> x2 & x4
 solve x1 -> x4 | x1 & x2
 solve x1 -> x3
 ```
+
+Fordítás:
+```
+bison -d grammar.y
+flex tokens.l
+gcc grammar.tab.c lex.yy.c
+```
