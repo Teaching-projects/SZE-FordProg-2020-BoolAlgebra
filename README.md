@@ -50,6 +50,8 @@ solve x1 -> x4 | x1 & x2
 solve x1 -> x3
 ```
 
+Elvileg csak C-beli parancsokat használtam, tehát gcc-nek le kell fordítania.
+
 Fordítás:
 ```
 bison -d grammar.y
